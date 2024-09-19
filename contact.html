@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio Website</title>
+<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">Shabaz..</a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html" >About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#" target="_self"  class="active">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Portfolio Contact Page</h1>
+    <p>Thank you for contacting me. I would like to get to know more about you in the interest of our possible partnership.</p>
+    <form action="submit.php" method="post">
+        <div class="form-group">
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+        </div>
+        <div class="form-group">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="name@email.com">
+        </div>
+        <div class="form-group">
+            <label for="question">Enter a question:</label>
+            <textarea name="question" id="question" placeholder="Enter a question"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="option">Select an option (optional):</label>
+            <select name="option" id="option">
+                <option value="">Choose an option</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
+
+
+
+
+
